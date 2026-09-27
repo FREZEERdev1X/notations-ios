@@ -1,0 +1,11 @@
+# Project-specific overrides
+# Language detection rules  
+# This file is used to override language statistics
+*.svg text  
+node_modules/* linguist-vendored
+
+public/*.html linguist-vendored
+src/**/*.tsx linguist-detectable
+public/* linguist-vendored
+
+# eof 74b0d1d0
